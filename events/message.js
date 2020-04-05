@@ -4,3 +4,10 @@ module.exports = (client, message) => {
     return kick(message)
   }
 }
+
+const joke = require("../commands/joke")
+module.exports = (client, message) => {
+  if (message.content.startsWith("/joke")) {
+    return joke(message)
+  }
+}

@@ -11,10 +11,10 @@ fs.readdir("./events/", (err, files) => {
   })
 })
 
-client.on("message", msg => {
+/*client.on("message", msg => {
   if (msg.content === "/joke") {
     msg.reply("Go ahead, be negative. You'll be just my type.")
   }
-})
+})*/
 
 client.login(process.env.BOT_TOKEN)
