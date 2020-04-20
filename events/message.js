@@ -1,9 +1,11 @@
 // Hente funksjoner i andre filer
-const joke = require("../commands/joke")
-const kick = require("../commands/kick")
-const taunt = require("../commands/taunt")
-const move = require("../commands/move")
-const attack = require("../commands/attack")
+const joke = require("../commands/prompts/joke")
+const kick = require("../commands/admin/kick")
+const taunt = require("../commands/prompts/taunt")
+const move = require("../commands/prompts/move")
+const attack = require("../commands/prompts/attack")
+const role = require("../commands/prompts/attack")
+//const say = require("../commands/prompts/say")
 
 // Array for command input
 const commandsArray = ["!kick", "/joke", "/taunt", "/move", "/attack"];
